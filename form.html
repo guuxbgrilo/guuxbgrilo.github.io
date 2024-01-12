@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Formulário </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href=".//img/form.png" type="image/x-icon">
+    </head>
+    <body>
+        <section>
+        <form>
+            <header>
+                <h1>Preencha o Formulário</h1>
+                <h5>com as suas seguintes informações:</h5><br>
+            </header>
+
+            <div>
+                <label for="name" id="name"> Nome Completo:</label>
+                <input type="text" id="name" placeholder="Digite seu nome completo" maxlength="45" required><br><br>
+            </div>
+
+            <div>
+                <label for="email" id="email">E-mail:</label>
+                <input type="text" id="email" placeholder="Digite seu email" required><br><br>
+            </div>
+
+            <div>
+                <label for="tel" id="tel" name="telefone">Número de Telefone:</label>
+                <input type="tel" id="tel" placeholder="Seu número:(xx) xxxxx-xxxx" maxlength="11" required><br><br>
+            </div>
+
+            <div>
+                <label for="text" id="cpf">CPF:</label>
+                <input type="tel" id="cpf" placeholder="CPF no formato: 123.456.789-00" maxlength="14" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="Sexo" id="sexo">Sexo:</label>
+                <select name="sexo" id="sexo" required>
+                    <option value="masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <link rel="stylesheet" href="style.css">
+                </select>   <br><br>
+            </div>
+
+            <div>Selecione sua cidade:
+                <select name="cidade" id="cidade" required> 
+
+                    <option value="Porto Alegre">Porto Alegre</option>
+                    <option value="Canoas">Canoas</option>
+                </select> <br><Br> 
+            </div>
+
+            <div>
+                <label for="data" id="data de nascimento">Data de Nascimento:</label>
+                <input type="date" id="data" required> <br><br>
+            </div>
+
+            <div>
+                Profissão:
+                <select name="profissão" required>
+                    <option value="Administração">Administração</option>
+                    <option value="Almoxerifado">Almoxerifado</option>
+                    <option value="Designer">Designer</option>
+                    <option value="Engeinheiro">Engeinheiro</option>
+                    <option value="tecnico de ti">Técnico de TI</option>
+                    <option value="tecnico de enfermagem">Técnico em Infermagem</option>
+                    
+                    
+                </select> <br> <br>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    </body>
+
+</html>
