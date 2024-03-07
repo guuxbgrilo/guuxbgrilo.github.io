@@ -1,0 +1,89 @@
+p[id="p1"]{
+    font-size: 17px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 25x;
+}
+
+body{
+    background-image: url(img/conceito-de-plano-de-fundo-do-estudio-abstrato-vazio-luz-gradiente-roxo-estudio-quarto-fundo-para-o-produto-plano-de-fundo-liso-do-estudio.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    margin: 10px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+p{
+    font-size: 15px;
+    
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: 0.5s;
+}
+
+::selection{
+    color: black;
+    background-color: grey;
+}
+
+b{
+    font-size: 21px;
+    color: white;
+}
+
+img{
+    border-radius: 10px;
+
+}
+
+img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1.3s;
+    border-radius: 13px;
+}
+
+label{
+    color: white;
+    padding: 4px;
+
+}
+
+h3{ 
+    color: white;
+}
+
+div[id="tudo"]{
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 25x;
+    
+}
